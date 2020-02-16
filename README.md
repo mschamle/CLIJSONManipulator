@@ -1,5 +1,6 @@
 # CLIJSONManipulator
-Basic CLI tool to manipulate JSON packaged in an executable jar
+Basic CLI tool to manipulate JSON configuration files.
+Packaged in an executable jar
 
 ## What it does
 1. Read List of files from specified directory

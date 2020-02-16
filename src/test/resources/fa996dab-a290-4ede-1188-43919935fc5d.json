@@ -1,0 +1,22 @@
+{
+  "id": "fa996dab-a290-4ede-1188-43919935fc5d",
+  "name": "Product1",
+  "status": "RETIRED",
+  "Parts": [
+    {
+        "itemId": "aa2f5272-d174-43b8-9d5a-649808f30e2c",
+        "itemName": "Main Part",
+        "tags": {
+          "tag1": "Small Car",
+          "tag2": "Trailer Hitch"
+        }
+    },
+    {
+        "itemId": "aa2f5272-d174-43b8-9d5a-649808f30e2d",
+        "itemName": "Accessories",
+        "tags": {
+          "tag1": "Fasteners"
+        }
+    }
+  ]
+}
