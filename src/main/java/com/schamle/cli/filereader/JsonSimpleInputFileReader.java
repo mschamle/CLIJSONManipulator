@@ -13,8 +13,11 @@ public class JsonSimpleInputFileReader {
     private static final String INPUT_FOLDER = "/input";
     private static final String OUTPUT_FOLDER = "/output";
 
-    public static JsonSimpleInputFile readFile(File fileToRead) throws IOException {
+    public static SimpleJsonFile readFile(File fileToRead) throws IOException {
         JSONObject tomap = new JSONObject(new String(Files.readAllBytes(fileToRead.toPath()), StandardCharsets.UTF_8));
-        return JsonSimpleInputFile.builder().status(tomap.getString("status")).file(fileToRead).build();
+        return SimpleJsonFile.builder()
+                .id(tomap.getString("id"))
+                .status(tomap.getString("status"))
+                .file(fileToRead).build();
     }
 }

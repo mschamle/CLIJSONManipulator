@@ -7,8 +7,9 @@ import java.io.File;
 
 @Data
 @Builder
-public class JsonSimpleInputFile implements JsonInputFile {
+public class SimpleJsonFile implements JsonFile {
     String status;
+    String id;
 
     File file;
 
